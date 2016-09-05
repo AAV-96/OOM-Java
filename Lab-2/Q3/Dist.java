@@ -1,4 +1,4 @@
-/* This program is currently store in the home directory. If storedin any other dir, then use
+/* This program is currently store in the home directory. If stored in any other dir, then use
 package <directoryname>;
 Eg: package pro;
 */
