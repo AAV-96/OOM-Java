@@ -1,3 +1,7 @@
+/* This program is currently store in the home directory. If storedin any other dir, then use
+package <directoryname>;
+Eg: package pro;
+*/
 import user.own.pack.Distance;
 import java.io.*;
 import java.util.*;
