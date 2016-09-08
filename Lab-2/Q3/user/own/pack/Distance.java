@@ -2,17 +2,17 @@ package pack;
 import java.io.*;
 import java.util.*;
 
-class Distance {
+public class Distance {
 	private double ft, in;
 
-	void set() {
+	public void set() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter feet and inches");
 		this.ft = sc.nextDouble();
 		this.in = sc.nextDouble();
 	}
 
-	Distance getsum(Distance b) {
+	public Distance getsum(Distance b) {
 		Distance c = new Distance();
                 c.ft = 0;
                 c.in = 0;
@@ -21,7 +21,7 @@ class Distance {
 		return c;
 	}
 
-	public static void main(String args[]) {
+	/*public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		Distance obj1, obj2, obj3;
 		obj1 = new Distance();
@@ -34,7 +34,7 @@ class Distance {
 
 		System.out.println("Sum of feet = "+obj3.ft);
 		System.out.println("Sum of Inches = "+obj3.in);
-	}
+	}*/
 }
 
 
