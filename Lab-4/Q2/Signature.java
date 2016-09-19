@@ -13,6 +13,6 @@ public class Signature {
 		/*Instead of directly using args[0] etc., we can use a for loop too.
 		for (int i=0; i<args.length; i++) {
 			System.out.println("Arg"+(i+1)+" "+args[i]);
-		}
+		}*/
 	}
 }
