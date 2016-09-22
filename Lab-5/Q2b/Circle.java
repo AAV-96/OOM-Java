@@ -5,6 +5,8 @@ public class Circle extends Shape {
 	/*public void area() {
 		System.out.println("This is area method of: "+this.getClass());
 	}*/
+	
+	/*This code is intended to have an error. Uncommenting area() function will get it to work fine.*/
 
 	public static void main(String args[]) {
 		Circle obj = new Circle();
